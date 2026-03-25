@@ -26,7 +26,7 @@ export default function ContactForm() {
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-3 text-neutral-300">
               <Icon name="Mail" size={18} className="text-blue-400" />
-              <span className="text-sm">nactbulinila@gmail.com</span>
+              <span className="text-sm">miranbob4@gmail.com</span>
             </div>
             <div className="flex items-center gap-3 text-neutral-300">
               <Icon name="Clock" size={18} className="text-blue-400" />
