@@ -19,18 +19,18 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/49e5d353-96cc-47e2-a287-4c68f9c3a94b/files/4e620966-361c-4d4a-a318-1cba1f184f15.jpg"
-          alt="Дети на уроке"
+          src="https://cdn.poehali.dev/projects/49e5d353-96cc-47e2-a287-4c68f9c3a94b/files/e1515cae-7805-434c-8555-e3725138a56e.jpg"
+          alt="Горный пейзаж"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ЗАЖГИ
+          ВАДИМ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Методика воспитания и вовлечения детей младшего школьного возраста — чтобы каждый урок был незабываемым
+          Будущий педагог · Студент 4 курса · Педагогический колледж г. Сретенск
         </p>
       </div>
     </div>

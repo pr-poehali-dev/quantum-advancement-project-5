@@ -9,24 +9,24 @@ export default function Footer() {
           <div className="bg-neutral-900 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between">
             <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20">
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">О методике</h3>
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Навигация</h3>
                 <a
                   href="#about"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Как это работает
+                  Обо мне
                 </a>
                 <a
-                  href="#mission"
+                  href="#facts"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Для кого
+                  Факты о детях
                 </a>
                 <a
                   href="#contact"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Связаться
+                  Написать
                 </a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
@@ -35,27 +35,27 @@ export default function Footer() {
                   href="#tips"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Советы учителям
+                  Рекомендации
                 </a>
                 <a
-                  href="#parents"
+                  href="#reviews"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Родителям
+                  Отзывы
                 </a>
                 <a
-                  href="#blog"
+                  href="#hobbies"
                   className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
                 >
-                  Статьи
+                  Увлечения
                 </a>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
               <h1 className="text-[18vw] sm:text-[16vw] lg:text-[14vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
-                ЯРКИЙ
+                ВАДИМ
               </h1>
-              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} ЯркийКласс</p>
+              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} Вадим Широков</p>
             </div>
           </div>
         </div>

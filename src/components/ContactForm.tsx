@@ -18,23 +18,23 @@ export default function ContactForm() {
             Оставить заявку
           </p>
           <h2 className="text-3xl lg:text-5xl font-bold text-white leading-tight mb-6">
-            Хотите узнать методику подробнее?
+            Напишите Вадиму
           </h2>
           <p className="text-neutral-400 text-lg leading-relaxed mb-8">
-            Оставьте заявку — мы расскажем, как применить методику в вашем классе или дома, и ответим на все вопросы.
+            Есть вопрос о методике, хотите обсудить подход к ребёнку или просто пообщаться с единомышленником — пишите напрямую.
           </p>
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-3 text-neutral-300">
-              <Icon name="Phone" size={18} className="text-amber-400" />
-              <span className="text-sm">Перезвоним в течение 24 часов</span>
+              <Icon name="Mail" size={18} className="text-blue-400" />
+              <span className="text-sm">nactbulinila@gmail.com</span>
             </div>
             <div className="flex items-center gap-3 text-neutral-300">
-              <Icon name="BookOpen" size={18} className="text-amber-400" />
-              <span className="text-sm">Бесплатная консультация для учителей</span>
+              <Icon name="Clock" size={18} className="text-blue-400" />
+              <span className="text-sm">Отвечаю в течение 24 часов</span>
             </div>
             <div className="flex items-center gap-3 text-neutral-300">
-              <Icon name="Users" size={18} className="text-amber-400" />
-              <span className="text-sm">Подходит и для родителей, и для педагогов</span>
+              <Icon name="GraduationCap" size={18} className="text-blue-400" />
+              <span className="text-sm">Бесплатная консультация для учителей и родителей</span>
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function ContactForm() {
         <div className="lg:w-1/2 w-full">
           {sent ? (
             <div className="flex flex-col items-center justify-center gap-4 py-16 text-center">
-              <div className="w-16 h-16 rounded-full bg-amber-400 flex items-center justify-center">
+              <div className="w-16 h-16 rounded-full bg-blue-600 flex items-center justify-center">
                 <Icon name="Check" size={32} className="text-neutral-900" />
               </div>
               <h3 className="text-white text-2xl font-bold">Заявка отправлена!</h3>
@@ -106,7 +106,7 @@ export default function ContactForm() {
               </div>
               <button
                 type="submit"
-                className="bg-amber-400 text-neutral-900 px-6 py-4 text-sm font-bold uppercase tracking-wide hover:bg-amber-300 transition-colors cursor-pointer w-full"
+                className="bg-blue-600 text-white px-6 py-4 text-sm font-bold uppercase tracking-wide hover:bg-blue-500 transition-colors cursor-pointer w-full"
               >
                 Отправить заявку
               </button>

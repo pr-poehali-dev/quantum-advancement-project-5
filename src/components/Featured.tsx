@@ -9,14 +9,14 @@ export default function Featured() {
         />
       </div>
       <div className="flex-1 text-left lg:h-[800px] flex flex-col justify-center lg:mr-12 lg:order-1">
-        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Методика, которая работает</h3>
+        <h3 className="uppercase mb-4 text-sm tracking-wide text-neutral-600">Подход Вадима Широкова</h3>
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
-          Не просто теория — живые инструменты для учителей и родителей. Каждый приём адаптирован под возраст и интересы ребёнка,
-          чтобы он сам хотел учиться.
+          Дети хотят быть услышанными. Правильное обращение и вовлечение — это не дар, а навык,
+          которому можно и нужно учиться.
         </p>
-        <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
-          Узнать методику
-        </button>
+        <a href="#contact" className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide inline-block">
+          Написать Вадиму
+        </a>
       </div>
     </div>
   );
